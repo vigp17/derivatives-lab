@@ -15,8 +15,10 @@ error bar is a random number.
 from __future__ import annotations
 
 from dataclasses import dataclass
+from typing import Any
 
 import numpy as np
+from numpy.typing import NDArray
 
 from ._validate import validate_kind, validate_sigma, validate_spot_strike, validate_T
 
@@ -60,7 +62,12 @@ def price(
     drift = (r - q - 0.5 * sigma**2) * T
     vol_t = sigma * np.sqrt(T)
 
-    def payoff(z: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
+    FloatArray = NDArray[np.floating[Any]]
+    FloatPair = tuple[FloatArray, FloatArray]
+    samples: FloatArray
+    controls: FloatArray
+
+    def payoff(z: FloatArray) -> FloatPair:
         st = S * np.exp(drift + vol_t * z)
         pay = np.maximum(st - K, 0.0) if kind == "call" else np.maximum(K - st, 0.0)
         return disc * pay, disc * st

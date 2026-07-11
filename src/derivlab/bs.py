@@ -13,7 +13,7 @@ Vega and rho are per unit change (multiply by 0.01 for per-1%).
 
 from __future__ import annotations
 
-from typing import Any, cast
+from typing import Any
 
 import numpy as np
 from numpy.typing import ArrayLike, NDArray
@@ -72,7 +72,7 @@ def price(
         else np.maximum(K_arr - S_arr, 0.0)
     )
     if np.all(T_arr <= 0):
-        return cast("float | NDArray[np.floating[Any]]", scalar_or_array(intrinsic))
+        return scalar_or_array(intrinsic)
 
     pos = (S_arr > 0) & (K_arr > 0) & (sigma_arr > 0)
     if np.any(~pos & (T_arr > 0)):
@@ -86,7 +86,7 @@ def price(
     else:
         val = K_arr * df_r * norm.cdf(-d2) - S_arr * df_q * norm.cdf(-d1)
     out = np.where(T_arr > 0, val, intrinsic)
-    return cast("float | NDArray[np.floating[Any]]", scalar_or_array(out))
+    return scalar_or_array(out)
 
 
 def greeks(

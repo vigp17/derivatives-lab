@@ -10,7 +10,7 @@ Accepts scalars or NumPy arrays (broadcasting applies).
 
 from __future__ import annotations
 
-from typing import Any, cast
+from typing import Any
 
 import numpy as np
 from numpy.typing import ArrayLike, NDArray
@@ -152,4 +152,4 @@ def implied_vol(
         target[pos], S_arr[pos], K_arr[pos], T_arr[pos], r, q, kind, tol, max_iter
     )
     out[pos] = solved
-    return cast("float | NDArray[np.floating[Any]]", scalar_or_array(out))
+    return scalar_or_array(out)

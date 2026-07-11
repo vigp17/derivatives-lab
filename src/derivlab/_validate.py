@@ -2,7 +2,10 @@
 
 from __future__ import annotations
 
+from typing import Any
+
 import numpy as np
+from numpy.typing import NDArray
 
 __all__ = [
     "validate_kind",
@@ -58,16 +61,16 @@ def validate_T(T: float, *, allow_zero: bool = False) -> None:
         raise ValueError(f"T must be > 0, got {T}")
 
 
-def as_float_array(*values: object) -> tuple[np.ndarray, ...]:
+def as_float_array(*values: object) -> tuple[NDArray[np.floating[Any]], ...]:
     return tuple(np.asarray(v, dtype=float) for v in values)
 
 
-def broadcast_float_arrays(*values: object) -> tuple[np.ndarray, ...]:
+def broadcast_float_arrays(*values: object) -> tuple[NDArray[np.floating[Any]], ...]:
     arrays = tuple(np.atleast_1d(np.asarray(v, dtype=float)) for v in values)
     return tuple(np.broadcast_arrays(*arrays))
 
 
-def scalar_or_array(value: np.ndarray) -> float | np.ndarray:
+def scalar_or_array(value: NDArray[np.floating[Any]]) -> float | NDArray[np.floating[Any]]:
     """Return a Python float when `value` is 0-D, else the array."""
     if value.ndim == 0:
         return float(value)
