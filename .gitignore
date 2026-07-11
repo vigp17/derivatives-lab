@@ -1,0 +1,14 @@
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+.DS_Store
+.venv/
+
+# Generated Plotly artifacts — regenerate with examples/build_surface.py
+examples/*.html

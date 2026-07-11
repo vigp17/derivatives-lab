@@ -1,0 +1,86 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "derivlab"
+version = "0.1.0"
+description = "Options pricing, Greeks, and implied volatility surfaces with cross-validated engines"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Vignesh Perumal" }]
+keywords = ["options", "derivatives", "black-scholes", "implied-volatility", "greeks"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Typing :: Typed",
+]
+dependencies = [
+    "numpy>=1.24,<3",
+    "scipy>=1.10,<2",
+    "pandas>=2.0,<3",
+]
+
+[project.optional-dependencies]
+viz = ["plotly>=5.18,<7"]
+dev = [
+    "pytest>=7.4,<9",
+    "pytest-cov>=4.1,<7",
+    "ruff>=0.4,<1",
+    "mypy>=1.8,<2",
+    "pip-audit>=2.7,<3",
+    "pandas-stubs>=2.0,<3",
+    "types-PyYAML>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/vigp17/derivatives-lab"
+Documentation = "https://github.com/vigp17/derivatives-lab#readme"
+Repository = "https://github.com/vigp17/derivatives-lab"
+Issues = "https://github.com/vigp17/derivatives-lab/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=derivlab --cov-report=term-missing --cov-fail-under=90"
+
+[tool.coverage.run]
+branch = true
+source = ["derivlab"]
+omit = []
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+src = ["src", "tests", "examples"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["derivlab"]
+mypy_path = "src"
+warn_unused_ignores = true
+exclude = ["tests/"]
+
+[[tool.mypy.overrides]]
+module = ["scipy.*", "plotly.*"]
+ignore_missing_imports = true

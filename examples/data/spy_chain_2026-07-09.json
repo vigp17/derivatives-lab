@@ -1,0 +1,650 @@
+{
+ "symbol": "SPY",
+ "asof": "2026-07-09",
+ "quote_time_utc": "2026-07-09T20:14:59Z",
+ "spot": 751.69,
+ "spot_note": "official 4:00pm ET close; option quotes are the 4:15pm ET options close",
+ "source": "Robinhood MCP (get_option_quotes), read-only market data",
+ "quotes": [
+  {
+   "expiration": "2026-07-17",
+   "strike": 690,
+   "kind": "put",
+   "bid": 0.1,
+   "ask": 0.11,
+   "rh_iv": 0.260398
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 700,
+   "kind": "put",
+   "bid": 0.14,
+   "ask": 0.15,
+   "rh_iv": 0.232086
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 710,
+   "kind": "put",
+   "bid": 0.22,
+   "ask": 0.23,
+   "rh_iv": 0.20586
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 720,
+   "kind": "put",
+   "bid": 0.37,
+   "ask": 0.38,
+   "rh_iv": 0.179484
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 730,
+   "kind": "put",
+   "bid": 0.73,
+   "ask": 0.74,
+   "rh_iv": 0.155941
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 740,
+   "kind": "put",
+   "bid": 1.63,
+   "ask": 1.64,
+   "rh_iv": 0.134036
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 745,
+   "kind": "put",
+   "bid": 2.52,
+   "ask": 2.54,
+   "rh_iv": 0.123754
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 750,
+   "kind": "put",
+   "bid": 3.93,
+   "ask": 3.95,
+   "rh_iv": 0.113919
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 755,
+   "kind": "call",
+   "bid": 3.37,
+   "ask": 3.39,
+   "rh_iv": 0.10483
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 760,
+   "kind": "call",
+   "bid": 1.47,
+   "ask": 1.48,
+   "rh_iv": 0.096932
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 765,
+   "kind": "call",
+   "bid": 0.49,
+   "ask": 0.5,
+   "rh_iv": 0.090972
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 770,
+   "kind": "call",
+   "bid": 0.13,
+   "ask": 0.14,
+   "rh_iv": 0.088289
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 780,
+   "kind": "call",
+   "bid": 0.03,
+   "ask": 0.04,
+   "rh_iv": 0.106171
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 790,
+   "kind": "call",
+   "bid": 0.02,
+   "ask": 0.03,
+   "rh_iv": 0.133589
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 800,
+   "kind": "call",
+   "bid": 0.01,
+   "ask": 0.02,
+   "rh_iv": null
+  },
+  {
+   "expiration": "2026-07-17",
+   "strike": 810,
+   "kind": "call",
+   "bid": 0.01,
+   "ask": 0.02,
+   "rh_iv": null
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 690,
+   "kind": "put",
+   "bid": 2.44,
+   "ask": 2.46,
+   "rh_iv": 0.206456
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 700,
+   "kind": "put",
+   "bid": 3.06,
+   "ask": 3.09,
+   "rh_iv": 0.194386
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 710,
+   "kind": "put",
+   "bid": 3.9,
+   "ask": 3.93,
+   "rh_iv": 0.182316
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 720,
+   "kind": "put",
+   "bid": 5.04,
+   "ask": 5.07,
+   "rh_iv": 0.170544
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 730,
+   "kind": "put",
+   "bid": 6.59,
+   "ask": 6.63,
+   "rh_iv": 0.158921
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 740,
+   "kind": "put",
+   "bid": 8.73,
+   "ask": 8.78,
+   "rh_iv": 0.147596
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 745,
+   "kind": "put",
+   "bid": 10.11,
+   "ask": 10.15,
+   "rh_iv": 0.142083
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 750,
+   "kind": "put",
+   "bid": 11.73,
+   "ask": 11.78,
+   "rh_iv": 0.136867
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 755,
+   "kind": "call",
+   "bid": 13.77,
+   "ask": 13.81,
+   "rh_iv": 0.134334
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 760,
+   "kind": "call",
+   "bid": 10.98,
+   "ask": 11.02,
+   "rh_iv": 0.129566
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 765,
+   "kind": "call",
+   "bid": 8.55,
+   "ask": 8.58,
+   "rh_iv": 0.125244
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 770,
+   "kind": "call",
+   "bid": 6.49,
+   "ask": 6.52,
+   "rh_iv": 0.121519
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 780,
+   "kind": "call",
+   "bid": 3.45,
+   "ask": 3.48,
+   "rh_iv": 0.11541
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 790,
+   "kind": "call",
+   "bid": 1.66,
+   "ask": 1.69,
+   "rh_iv": 0.111237
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 800,
+   "kind": "call",
+   "bid": 0.75,
+   "ask": 0.77,
+   "rh_iv": 0.1093
+  },
+  {
+   "expiration": "2026-08-21",
+   "strike": 810,
+   "kind": "call",
+   "bid": 0.35,
+   "ask": 0.37,
+   "rh_iv": 0.110343
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 690,
+   "kind": "put",
+   "bid": 5.1,
+   "ask": 5.13,
+   "rh_iv": 0.205114
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 700,
+   "kind": "put",
+   "bid": 6.07,
+   "ask": 6.1,
+   "rh_iv": 0.195131
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 710,
+   "kind": "put",
+   "bid": 7.28,
+   "ask": 7.31,
+   "rh_iv": 0.185296
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 720,
+   "kind": "put",
+   "bid": 8.8,
+   "ask": 8.83,
+   "rh_iv": 0.17561
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 730,
+   "kind": "put",
+   "bid": 10.72,
+   "ask": 10.75,
+   "rh_iv": 0.166222
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 740,
+   "kind": "put",
+   "bid": 13.16,
+   "ask": 13.19,
+   "rh_iv": 0.156984
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 745,
+   "kind": "put",
+   "bid": 14.63,
+   "ask": 14.66,
+   "rh_iv": 0.152513
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 750,
+   "kind": "put",
+   "bid": 16.29,
+   "ask": 16.33,
+   "rh_iv": 0.148341
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 755,
+   "kind": "call",
+   "bid": 19.9,
+   "ask": 19.94,
+   "rh_iv": 0.14253
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 760,
+   "kind": "call",
+   "bid": 16.97,
+   "ask": 17.01,
+   "rh_iv": 0.138506
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 765,
+   "kind": "call",
+   "bid": 14.3,
+   "ask": 14.34,
+   "rh_iv": 0.13493
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 770,
+   "kind": "call",
+   "bid": 11.89,
+   "ask": 11.93,
+   "rh_iv": 0.131503
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 780,
+   "kind": "call",
+   "bid": 7.92,
+   "ask": 7.96,
+   "rh_iv": 0.125989
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 790,
+   "kind": "call",
+   "bid": 5.02,
+   "ask": 5.05,
+   "rh_iv": 0.121817
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 800,
+   "kind": "call",
+   "bid": 3.04,
+   "ask": 3.06,
+   "rh_iv": 0.118688
+  },
+  {
+   "expiration": "2026-09-18",
+   "strike": 810,
+   "kind": "call",
+   "bid": 1.77,
+   "ask": 1.79,
+   "rh_iv": 0.116751
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 690,
+   "kind": "put",
+   "bid": 7.71,
+   "ask": 7.75,
+   "rh_iv": 0.205264
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 700,
+   "kind": "put",
+   "bid": 8.92,
+   "ask": 8.96,
+   "rh_iv": 0.196621
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 710,
+   "kind": "put",
+   "bid": 10.36,
+   "ask": 10.4,
+   "rh_iv": 0.187829
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 720,
+   "kind": "put",
+   "bid": 12.1,
+   "ask": 12.15,
+   "rh_iv": 0.179335
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 730,
+   "kind": "put",
+   "bid": 14.22,
+   "ask": 14.27,
+   "rh_iv": 0.17114
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 740,
+   "kind": "put",
+   "bid": 16.8,
+   "ask": 16.86,
+   "rh_iv": 0.163093
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 745,
+   "kind": "put",
+   "bid": 18.31,
+   "ask": 18.37,
+   "rh_iv": 0.159219
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 750,
+   "kind": "put",
+   "bid": 19.99,
+   "ask": 20.05,
+   "rh_iv": 0.155643
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 755,
+   "kind": "call",
+   "bid": 24.78,
+   "ask": 24.83,
+   "rh_iv": 0.144616
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 760,
+   "kind": "call",
+   "bid": 21.81,
+   "ask": 21.86,
+   "rh_iv": 0.141487
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 765,
+   "kind": "call",
+   "bid": 19.05,
+   "ask": 19.09,
+   "rh_iv": 0.138357
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 770,
+   "kind": "call",
+   "bid": 16.5,
+   "ask": 16.54,
+   "rh_iv": 0.135675
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 780,
+   "kind": "call",
+   "bid": 12.08,
+   "ask": 12.12,
+   "rh_iv": 0.130758
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 790,
+   "kind": "call",
+   "bid": 8.57,
+   "ask": 8.61,
+   "rh_iv": 0.126883
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 800,
+   "kind": "call",
+   "bid": 5.91,
+   "ask": 5.94,
+   "rh_iv": 0.124052
+  },
+  {
+   "expiration": "2026-10-16",
+   "strike": 810,
+   "kind": "call",
+   "bid": 3.97,
+   "ask": 4.0,
+   "rh_iv": 0.121966
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 690,
+   "kind": "put",
+   "bid": 13.18,
+   "ask": 13.22,
+   "rh_iv": 0.208095
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 700,
+   "kind": "put",
+   "bid": 14.73,
+   "ask": 14.78,
+   "rh_iv": 0.200942
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 710,
+   "kind": "put",
+   "bid": 16.52,
+   "ask": 16.56,
+   "rh_iv": 0.193939
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 720,
+   "kind": "put",
+   "bid": 18.57,
+   "ask": 18.62,
+   "rh_iv": 0.187084
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 730,
+   "kind": "put",
+   "bid": 20.93,
+   "ask": 20.99,
+   "rh_iv": 0.18023
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 740,
+   "kind": "put",
+   "bid": 23.68,
+   "ask": 23.74,
+   "rh_iv": 0.173673
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 745,
+   "kind": "put",
+   "bid": 25.22,
+   "ask": 25.29,
+   "rh_iv": 0.170544
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 750,
+   "kind": "put",
+   "bid": 26.89,
+   "ask": 26.97,
+   "rh_iv": 0.167415
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 755,
+   "kind": "call",
+   "bid": 36.37,
+   "ask": 36.62,
+   "rh_iv": 0.158027
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 760,
+   "kind": "call",
+   "bid": 33.32,
+   "ask": 33.38,
+   "rh_iv": 0.154898
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 765,
+   "kind": "call",
+   "bid": 30.37,
+   "ask": 30.43,
+   "rh_iv": 0.152215
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 770,
+   "kind": "call",
+   "bid": 27.56,
+   "ask": 27.62,
+   "rh_iv": 0.149682
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 780,
+   "kind": "call",
+   "bid": 22.42,
+   "ask": 22.48,
+   "rh_iv": 0.145063
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 790,
+   "kind": "call",
+   "bid": 17.94,
+   "ask": 17.99,
+   "rh_iv": 0.14089
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 800,
+   "kind": "call",
+   "bid": 14.12,
+   "ask": 14.17,
+   "rh_iv": 0.137463
+  },
+  {
+   "expiration": "2026-12-18",
+   "strike": 810,
+   "kind": "call",
+   "bid": 10.95,
+   "ask": 10.99,
+   "rh_iv": 0.134483
+  }
+ ]
+}
